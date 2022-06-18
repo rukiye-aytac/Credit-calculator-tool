@@ -31,7 +31,7 @@ const showResults = () => {
 
   results.innerHTML = `
   <h2 class="mt-3 text-info">Credit Information</h2>
-  <table class="table table-bordered border-primary  mt-4">
+  <table class="table table-bordered border-primary mt-4">
    <tbody>
     <tr>
       <th>Credit Amount</th>
@@ -52,6 +52,5 @@ const showResults = () => {
       <td>${installment.toFixed(2)} $</td>
     </tr>
   </tbody>
-</table> 
-    `;
+</table> `;
 };
